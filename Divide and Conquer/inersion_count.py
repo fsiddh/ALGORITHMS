@@ -21,7 +21,7 @@ def merge(A, left, mid, right):
         else:
             B[k] = A[j]
             j += 1
-            inv_count=inv_count+(mid-i + 1)
+            inv_count += (mid-i + 1)
         k += 1
 
     while i <= mid:
